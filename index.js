@@ -47,8 +47,8 @@ app.use(session({
 app.use(express.json())
 app.use(cors({}))
 app.get('/api/v1' , (req,res) =>{
-    res.send("<h2>very well done<h2/>")
-    console.log(' very well')
+    res.send("<h2>niente<h2/>")
+    console.log(' new ')
 } );
 
 
